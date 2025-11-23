@@ -1,0 +1,248 @@
+{
+    "ABC123": {
+        "mailId": "madhan@gmail.com",
+        "hashedPassword": "$2b$10$TRyHIoHtOsAbt4Y3CbfOY.su2QQrh/olunvqmk/t9nF38eAUZXgJS",
+        "studentName": "Madhan",
+        "studentClass": "First Class",
+        "department": "ECE",
+        "yearOfPass": "2018",
+        "percentage": "9.2",
+        "certificates": []
+    },
+    "ABC122": {
+        "mailId": "kumar@gmail.com",
+        "hashedPassword": "$2b$10$iqjTHrL9L12qmLLeX3FCXOUarz6d3vDxu.q8iu6oq5DoAg0oxCs.C",
+        "studentName": "Kumar",
+        "studentClass": "First Class with Distinction",
+        "department": "ECE",
+        "yearOfPass": 2018,
+        "percentage": "9.2",
+        "certificates": []
+    },
+    "ABC124": {
+        "mailId": "ramesh@gmail.com",
+        "hashedPassword": "$2b$10$NVtvlf6qsQGwyT6ZlYU2JefSLKzI4bhsHV9AdBAMU2CDfa5NkYIXO",
+        "studentName": "ramesh",
+        "studentClass": "First Class with Distinction",
+        "department": "ECE",
+        "yearOfPass": 2018,
+        "percentage": "9.2",
+        "certificates": [
+            {
+                "certificateHash": "0x96ecb0cb3b8ae55ae45465944aaacd76655d1a6545ac23fbe7e55c4362080d2b",
+                "pdfFilePath": "/certificates/1758908100754-Simple_Agreement_(4).pdf",
+                "photoFilePath": "/imgs/1758908100756-team.png",
+                "qrCodePath": "/imgs/qrcodes/ABC124-1758908100759.png",
+                "blockchainTxHash": "0xa339d3e802a9428d423c52dda9710af70fc2d8cf30173d2e4deb9015f6efa367",
+                "issueTimestamp": "2025-09-26T17:35:01.041Z"
+            }
+        ]
+    },
+    "ABC125": {
+        "mailId": "sri@gmail.com",
+        "hashedPassword": "$2b$10$mVqPr7MACAi8rinj0RNl7.E4HHuSarCh3z/86bGgkijtpG4idszVG",
+        "studentName": "Sri",
+        "studentClass": "First Class",
+        "department": "CSE",
+        "yearOfPass": 2023,
+        "percentage": "9.1",
+        "certificates": [
+            {
+                "certificateHash": "0x7c1db03e9d4ed79d4cf01c3fbbb24dadc666a059c68b0f71db77888e5de7d838",
+                "pdfFilePath": "/certificates/1758915239429-legal.pdf",
+                "photoFilePath": "/imgs/1758915239430-admin.png",
+                "qrCodePath": "/imgs/qrcodes/ABC125-1758915239431.png",
+                "blockchainTxHash": "0x6a6e0f44e403b0fbccb05129caa63b2ee92a8df272f88a866b4da01f45fb154e",
+                "issueTimestamp": "2025-09-26T19:33:59.671Z"
+            },
+            {
+                "certificateHash": "0xb495fd2241e3caa088523ab775a8393c7eb81619a81649fdd12732d661e32dc8",
+                "pdfFilePath": "/certificates/1758915276329-Basepaper_-_Blood_Group_Deetction.pdf",
+                "photoFilePath": "/imgs/1758915276333-student.png",
+                "qrCodePath": "/imgs/qrcodes/ABC125-1758915276334.png",
+                "blockchainTxHash": "0xaae00e9c7e47cd373c188d81980aeb6d2b43ed3df0261375ca1f8a99712cdd30",
+                "issueTimestamp": "2025-09-26T19:34:36.467Z"
+            },
+            {
+                "certificateHash": "0x0f3603f6fc05a62e3d6da6556fe9e7f93d9e5a37a5bea2fce8cb328b5f4a66c6",
+                "pdfFilePath": "/certificates/1758915456837-2016_IEEE_Neha_BloodTyping.pdf",
+                "photoFilePath": "/imgs/1758915456842-verifier.png",
+                "qrCodePath": "/imgs/qrcodes/ABC125-1758915456844.png",
+                "blockchainTxHash": "0xadab1b320855abcfc7615f9dec1c2a2239a8ad77c8916da81a8b178ea1abbcbe",
+                "issueTimestamp": "2025-09-26T19:37:37.054Z"
+            }
+        ]
+    },
+    "ABC2323": {
+        "mailId": "tharun2323@gmail.com",
+        "hashedPassword": "$2b$10$pxPg2ZBJPMva.ahFFDmpLO2oe0mMWflX71QmbKjwZaY6b.0.owyEy",
+        "studentName": "Tharun Kumar",
+        "studentClass": "First Class with Distinction",
+        "department": "ECE",
+        "yearOfPass": 2025,
+        "percentage": "8.9",
+        "certificates": [
+            {
+                "certificateHash": "0xf33facf360e28b71661af28c7284c49b9d14488cacade358d83d3dca3c7b5f97",
+                "pdfFilePath": "/certificates/1761207242935-certificate_(2).pdf",
+                "photoFilePath": "/imgs/1761207242946-student_photo.jpg",
+                "qrCodePath": "/imgs/qrcodes/ABC2323-1761207242951.png",
+                "blockchainTxHash": "0xe88d967186ba1cdbcacc920e1476f3ee605b9b4d4df8387acff591d0ae12e14b",
+                "issueTimestamp": "2025-10-23T08:14:03.250Z"
+            }
+        ]
+    },
+    "ABC2424": {
+        "mailId": "ramkumar2424@gmail.com",
+        "hashedPassword": "$2b$10$epxGZxapOdNAB27YhXNqC.QyAGmw9W0Ke.XylK2wQH0AdxQpjZYBi",
+        "studentName": "Ram Kumar",
+        "studentClass": "First Class",
+        "department": "CSE",
+        "yearOfPass": 2024,
+        "percentage": "8.5",
+        "certificates": [
+            {
+                "certificateHash": "0x09bbd0e1382a4a664afe01bded0bccca218e6832c918832c01a862689c346085",
+                "pdfFilePath": "/certificates/1761207489777-certificte_3.pdf",
+                "photoFilePath": "/imgs/1761207489785-student_photo2.jpg",
+                "qrCodePath": "/imgs/qrcodes/ABC2424-1761207489787.png",
+                "blockchainTxHash": "0x34f7243e1dd5734f1f3c29bceb51d413162a35d05da5dfcb3ad29968ae7454d6",
+                "issueTimestamp": "2025-10-23T08:18:09.965Z"
+            }
+        ]
+    },
+    "1AJ22CS086": {
+        "mailId": "yashodhar@gmail.ocm",
+        "hashedPassword": "$2b$10$k0naf.Cdst1YYgpkW0khwug96T5C.d57ymh/4IY2UP7KDTSMO0sG2",
+        "studentName": "Marripati Yashodhar",
+        "studentClass": "First Class with Distinction",
+        "department": "cse",
+        "yearOfPass": 2026,
+        "percentage": "10",
+        "certificates": [
+            {
+                "certificateHash": "0x21a4e4e2a2cb75c1aae0f16b2905ff43b4bd78b0ea9a755698b90a5b76ca68ad",
+                "pdfFilePath": "/certificates/1763794217041-Basepaper_-_blockchain_certificate.pdf",
+                "photoFilePath": "/imgs/1763794217060-WIN_20251122_12_19_55_Pro.jpg",
+                "qrCodePath": "/imgs/qrcodes/1AJ22CS086-1763794217061.png",
+                "blockchainTxHash": "0xefcad49dcf31c0a1b52e4599c381d3b51e62a96bfe4b155091c56db24ab0950c",
+                "issueTimestamp": "2025-11-22T06:50:17.324Z"
+            }
+        ]
+    },
+    "1AJ22CS070": {
+        "mailId": "yashodhar@gmail.ocm",
+        "hashedPassword": "$2b$10$YrM5VdVFXSoCd7JtzXr3pu3aXkr.FDrj7UAxAX.D4o.gEja0uADsW",
+        "studentName": "Marripati Yashodhar",
+        "studentClass": "First Class with Distinction",
+        "department": "cse",
+        "yearOfPass": 2026,
+        "percentage": "10",
+        "certificates": []
+    },
+    "1AJ22CS018": {
+        "mailId": "virat@gmail.com",
+        "hashedPassword": "$2b$10$WmK5a/4J3X9eme30NDS7huTqAeEY4zM9LRFQb.EUczq5kT7hjhqO6",
+        "studentName": "virat kohli",
+        "studentClass": "First Class with Distinction",
+        "department": "CSE",
+        "yearOfPass": 2026,
+        "percentage": "10",
+        "certificates": []
+    },
+    "1AJ22CS007": {
+        "mailId": "dhoni@gmail.com",
+        "hashedPassword": "$2b$10$bscr442h76wIwu2fcxMwHe.iUhZfk12cGZy7GhmO5k8UDU5txH44i",
+        "studentName": "ms dhoni",
+        "studentClass": "First Class with Distinction",
+        "department": "CSE",
+        "yearOfPass": 2026,
+        "percentage": "10",
+        "certificates": [
+            {
+                "certificateHash": "0x12807e951efdc8abaf2387ae7b30da6f160088519387a33f13e33ac5d6f2a978",
+                "pdfFilePath": "/certificates/1763805291590-1000026229_(1).pdf",
+                "photoFilePath": "/imgs/1763805291591-20220923_163816.jpg",
+                "qrCodePath": "/imgs/qrcodes/1AJ22CS007-1763805291614.png",
+                "blockchainTxHash": "0xa72b471c29bcab2451b80ac881e8bf9a63a905cab19b3c8c8fb3a7e7c50f46b3",
+                "issueTimestamp": "2025-11-22T09:54:51.925Z"
+            }
+        ]
+    },
+    "1AJ22CS045": {
+        "mailId": "rohit@gmail.com",
+        "hashedPassword": "$2b$10$smbLp.mz32U.k94OpdgSV.7OThK8K9iFVFsK2cP3oQGmIp3GfLnLq",
+        "studentName": "rohit",
+        "studentClass": "First Class with Distinction",
+        "department": "CSE",
+        "yearOfPass": 2026,
+        "percentage": "10",
+        "certificates": [
+            {
+                "certificateHash": "0xd364340fc96782e4536f3d9858457763aa5d02573b9cba52abdcc05d11385d1a",
+                "pdfFilePath": "/certificates/1763821535512-Image_to_PDF_20251122_19.53.36.pdf",
+                "photoFilePath": "/imgs/1763821535528-WhatsApp_Image_2025-11-22_at_1.09.18_PM_(1).jpeg",
+                "qrCodePath": "/imgs/qrcodes/1AJ22CS045-1763821535579.png",
+                "blockchainTxHash": "0x0dad4b168262edd93cee6bf3e68606e500f42536416f700ac50d6991a54581cc",
+                "issueTimestamp": "2025-11-22T14:25:36.205Z"
+            }
+        ]
+    },
+    "1AJ22CS001": {
+        "mailId": "rahul@gmail.com",
+        "hashedPassword": "$2b$10$LLnnJYr3P/f//lh4GTuAieBJVclXpRqWJha4HHdzt9Hy5vR6EhFN2",
+        "studentName": "Kl Rahul",
+        "studentClass": "First Class with Distinction",
+        "department": "cse",
+        "yearOfPass": 2026,
+        "percentage": "10",
+        "certificates": [
+            {
+                "certificateHash": "0xe8716c381dd885ad14dbf2106aad916ef94e1303e1f061ef0deb8a6b45acc6e0",
+                "pdfFilePath": "/certificates/1763824656966-1000026299.pdf",
+                "photoFilePath": "/imgs/1763824656968-20220923_163740.jpg",
+                "qrCodePath": "/imgs/qrcodes/1AJ22CS001-1763824657073.png",
+                "blockchainTxHash": "0x7e964b07a80c3f5211e8b134b7bd1f27a033e273a8ed2d196e94b36947d8cc85",
+                "issueTimestamp": "2025-11-22T15:17:37.675Z"
+            }
+        ]
+    },
+    "1AJ22CS087": {
+        "mailId": "yashodhar@gmail.ocm",
+        "hashedPassword": "$2b$10$WUIYU07TLITYXtullbJ5HuOXo1TjU3BqceBSEcmRL7y7Cws.sEhvG",
+        "studentName": "yash",
+        "studentClass": "First Class with Distinction",
+        "department": "cse",
+        "yearOfPass": 2026,
+        "percentage": "10",
+        "certificates": [
+            {
+                "certificateHash": "0x9a09b62525288e8994170663c3da9deecb12318fbd4acb4a867ca31ad260eb4e",
+                "pdfFilePath": "/certificates/1763824911664-1000026297.pdf",
+                "photoFilePath": "/imgs/1763824911665-20220923_163740.jpg",
+                "qrCodePath": "/imgs/qrcodes/1AJ22CS087-1763824911832.png",
+                "blockchainTxHash": "0xcc775f662c0be14256461c54d910bffabedd888f6d965151ab215ad8998da699",
+                "issueTimestamp": "2025-11-22T15:21:52.109Z"
+            }
+        ]
+    },
+    "1AJ22CS010": {
+        "mailId": "sachin@gmail.com",
+        "hashedPassword": "$2b$10$CwM6UBKA9nqZFzD94H1So.QhO2oIsXRA3LB8W0pOUNgqpX2sBeGam",
+        "studentName": "sachin",
+        "studentClass": "First Class with Distinction",
+        "department": "cse",
+        "yearOfPass": 2026,
+        "percentage": "10",
+        "certificates": [
+            {
+                "certificateHash": "0x0b04183632f443dcdd420d41335df9a2dfc3fb3c386aef26aaa1d340854bffd6",
+                "pdfFilePath": "/certificates/1763828385985-1000026298.pdf",
+                "photoFilePath": "/imgs/1763828385994-20220923_163816.jpg",
+                "qrCodePath": "/imgs/qrcodes/1AJ22CS010-1763828386047.png",
+                "blockchainTxHash": "0x17c39eeb63b0cc08b4b7901ab3884a5a0389d89c1769d1cae407ab27d2747ce6",
+                "issueTimestamp": "2025-11-22T16:19:46.462Z"
+            }
+        ]
+    }
+}

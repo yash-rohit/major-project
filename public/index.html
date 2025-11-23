@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Chain - Secure Certificate Verification</title>
+
+    <!-- Tailwind + Lucide -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest"></script>
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+        html { scroll-behavior: smooth; }
+
+        body { 
+            font-family: 'Inter', sans-serif;
+            background-color: #0d9488;
+            background-image: linear-gradient(to right bottom, #06b6d4, #22c55e);
+        }
+
+        /* ⭐ New Hero Section Background */
+        .hero-bg {
+            background: url('./assets/images/blockchain_bg.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.45);
+            backdrop-filter: blur(6px);
+        }
+
+        /* CTA Button */
+        .cta-button {
+            background-image: linear-gradient(to right, #ec4899, #f97316);
+        }
+    </style>
+</head>
+
+<body class="text-white">
+
+    <!-- Header -->
+    <header class="absolute top-0 left-0 right-0 p-6 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <i data-lucide="link" class="w-8 h-8 text-white"></i>
+                <span class="text-xl font-bold">Certificate Chain</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- ⭐ HERO SECTION WITH BLOCKCHAIN BACKGROUND -->
+    <section class="min-h-screen flex items-center justify-center text-center px-4 hero-bg">
+        <div class="hero-overlay w-full h-full flex items-center justify-center px-4 py-20">
+            <div class="max-w-4xl" data-aos="fade-up">
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight">
+                    Manage & Verify Certificates on the Blockchain
+                </h1>
+
+                <p class="mt-6 text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
+                    Certificate Chain provides an immutable, secure, and transparent platform for issuing and verifying
+                    academic and professional certificates using the power of blockchain technology.
+                </p>
+
+                <a href="#portals" 
+                   class="cta-button inline-block mt-10 px-8 py-4 text-lg font-bold text-white rounded-full shadow-lg hover:scale-105 transition-transform duration-300">
+                    Get Started →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ⭐ FEATURES -->
+    <section class="py-20 sm:py-32 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-4">Key Features of Certificate Chain</h2>
+            <p class="text-lg text-white/70 mb-16 max-w-2xl mx-auto">
+                Our platform is built to provide trust and efficiency for institutions and individuals alike.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+
+                <div class="p-8 rounded-2xl bg-gradient-to-br from-pink-500 to-orange-400 shadow-xl" data-aos="fade-up">
+                    <i data-lucide="shield-check" class="w-12 h-12 mb-4 text-white"></i>
+                    <h3 class="text-2xl font-bold mb-2 text-white">Immutable Verification</h3>
+                    <p class="text-white/80">Once a certificate is on the blockchain, its authenticity lasts forever.</p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-gradient-to-br from-pink-500 to-orange-400 shadow-xl" data-aos="fade-up" data-aos-delay="100">
+                    <i data-lucide="award" class="w-12 h-12 mb-4 text-white"></i>
+                    <h3 class="text-2xl font-bold mb-2 text-white">Effortless Issuance</h3>
+                    <p class="text-white/80">Admins can issue certificates easily with unique cryptographic hashes.</p>
+                </div>
+
+                <div class="p-8 rounded-2xl bg-gradient-to-br from-pink-500 to-orange-400 shadow-xl" data-aos="fade-up" data-aos-delay="200">
+                    <i data-lucide="users" class="w-12 h-12 mb-4 text-white"></i>
+                    <h3 class="text-2xl font-bold mb-2 text-white">Instant Accessibility</h3>
+                    <p class="text-white/80">Students can access their digital certificates anytime.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ⭐ PORTAL SECTION -->
+    <section id="portals" class="py-20 sm:py-32 px-4">
+        <div class="container mx-auto text-center">
+
+            <h2 class="text-4xl font-bold mb-12">Access Your Portal</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+                <!-- Admin -->
+                <a href="/admin/admin_dashboard.html" class="block" data-aos="zoom-in">
+                    <div class="p-8 rounded-2xl h-full flex flex-col items-center text-center bg-gradient-to-br from-pink-500 to-orange-400 hover:-translate-y-2 transition-transform duration-300 shadow-xl">
+                        <img src="/imgs/admin.png" class="w-16 h-16 mb-4">
+                        <h3 class="text-2xl font-bold mb-2 text-white">Admin Panel</h3>
+                        <p class="text-white/80 mb-6 flex-grow">Issue certificates, upload documents, and manage accounts.</p>
+                        <span class="mt-auto font-bold text-white inline-block px-6 py-2 rounded-full bg-white/20">Enter Admin →</span>
+                    </div>
+                </a>
+
+                <!-- Verifier -->
+                <a href="/verifier/verify_certificate.html" class="block" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="p-8 rounded-2xl h-full flex flex-col items-center text-center bg-gradient-to-br from-pink-500 to-orange-400 hover:-translate-y-2 transition-transform duration-300 shadow-xl">
+                        <img src="/imgs/verifier.png" class="w-16 h-16 mb-4">
+                        <h3 class="text-2xl font-bold mb-2 text-white">Verifier</h3>
+                        <p class="text-white/80 mb-6 flex-grow">Verify authenticity using cryptographic hash or QR.</p>
+                        <span class="mt-auto font-bold text-white inline-block px-6 py-2 rounded-full bg-white/20">Enter Verifier →</span>
+                    </div>
+                </a>
+
+                <!-- Student -->
+                <a href="/student/login.html" class="block" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="p-8 rounded-2xl h-full flex flex-col items-center text-center bg-gradient-to-br from-pink-500 to-orange-400 hover:-translate-y-2 transition-transform duration-300 shadow-xl">
+                        <img src="/imgs/student.png" class="w-16 h-16 mb-4">
+                        <h3 class="text-2xl font-bold mb-2 text-white">Student Portal</h3>
+                        <p class="text-white/80 mb-6 flex-grow">Access and download your digital certificates anytime.</p>
+                        <span class="mt-auto font-bold text-white inline-block px-6 py-2 rounded-full bg-white/20">Enter Student →</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 text-center text-white/60">
+        © 2025 Certificate Chain | A Secure Student Portal
+    </footer>
+
+    <!-- AOS Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init({ duration: 1000 });</script>
+
+    <script>
+        window.onload = function() {
+            if (typeof lucide !== 'undefined') lucide.createIcons();
+        };
+    </script>
+
+</body>
+</html>
